@@ -7,6 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		930E79A515BC59D9008C47C8 /* Opentok.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 930E79A415BC59D9008C47C8 /* Opentok.framework */; };
+		930E79AB15BC5A15008C47C8 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 930E79A915BC59F9008C47C8 /* CoreImage.framework */; };
+		930E79C015BC5B4B008C47C8 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 930E79BC15BC5AEE008C47C8 /* OpenGLES.framework */; };
+		930E79C115BC5B4B008C47C8 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 930E79BE15BC5AFF008C47C8 /* QuartzCore.framework */; };
+		930E79C215BC5B4B008C47C8 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 930E79BA15BC5AA6008C47C8 /* CoreMedia.framework */; };
+		930E79C315BC5B4B008C47C8 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 930E79B815BC5A9E008C47C8 /* MobileCoreServices.framework */; };
+		930E79C415BC5B4B008C47C8 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 930E79AD15BC5A54008C47C8 /* CoreAudio.framework */; };
+		930E79C515BC5B4B008C47C8 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 930E79AC15BC5A54008C47C8 /* AudioToolbox.framework */; };
+		930E79C615BC5B4B008C47C8 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 930E79B015BC5A5E008C47C8 /* CoreTelephony.framework */; };
+		930E79C715BC5B4B008C47C8 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 930E79B215BC5A63008C47C8 /* AVFoundation.framework */; };
+		930E79C815BC5B4B008C47C8 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 930E79B415BC5A6B008C47C8 /* CoreVideo.framework */; };
+		930E79C915BC5B4B008C47C8 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 930E79B615BC5A71008C47C8 /* CFNetwork.framework */; };
+		930E79CB15BC5BE5008C47C8 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 930E79CA15BC5BE5008C47C8 /* libz.dylib */; };
+		930E79CD15BC5BF0008C47C8 /* libstdc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 930E79CC15BC5BF0008C47C8 /* libstdc++.dylib */; };
+		930E79D015BC5C25008C47C8 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 930E79CE15BC5C1D008C47C8 /* SystemConfiguration.framework */; };
+		930E79D215BC5C45008C47C8 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 930E79D115BC5C45008C47C8 /* Security.framework */; };
+		930E79D415BC7CF5008C47C8 /* opentok.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 930E79D315BC7CF5008C47C8 /* opentok.bundle */; };
 		93B8D0BE15BC4D2F0038AF14 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93B8D0BD15BC4D2F0038AF14 /* UIKit.framework */; };
 		93B8D0C015BC4D2F0038AF14 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93B8D0BF15BC4D2F0038AF14 /* Foundation.framework */; };
 		93B8D0C215BC4D2F0038AF14 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93B8D0C115BC4D2F0038AF14 /* CoreGraphics.framework */; };
@@ -18,6 +35,7 @@
 		93B8D0D815BC4D300038AF14 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93B8D0BF15BC4D2F0038AF14 /* Foundation.framework */; };
 		93B8D0E015BC4D300038AF14 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 93B8D0DE15BC4D300038AF14 /* InfoPlist.strings */; };
 		93B8D0E315BC4D300038AF14 /* MoppetTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 93B8D0E215BC4D300038AF14 /* MoppetTests.m */; };
+		93B8D0F315BC4E120038AF14 /* MPTCallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93B8D0F215BC4E120038AF14 /* MPTCallViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,22 +49,41 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		930E79A415BC59D9008C47C8 /* Opentok.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Opentok.framework; sourceTree = "<group>"; };
+		930E79A915BC59F9008C47C8 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		930E79AC15BC5A54008C47C8 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		930E79AD15BC5A54008C47C8 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		930E79B015BC5A5E008C47C8 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		930E79B215BC5A63008C47C8 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		930E79B415BC5A6B008C47C8 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		930E79B615BC5A71008C47C8 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		930E79B815BC5A9E008C47C8 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		930E79BA15BC5AA6008C47C8 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		930E79BC15BC5AEE008C47C8 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		930E79BE15BC5AFF008C47C8 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		930E79CA15BC5BE5008C47C8 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		930E79CC15BC5BF0008C47C8 /* libstdc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.dylib"; path = "usr/lib/libstdc++.dylib"; sourceTree = SDKROOT; };
+		930E79CE15BC5C1D008C47C8 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		930E79D115BC5C45008C47C8 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		930E79D315BC7CF5008C47C8 /* opentok.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = opentok.bundle; path = Opentok.framework/Versions/A/Resources/opentok.bundle; sourceTree = "<group>"; };
 		93B8D0B915BC4D2F0038AF14 /* Moppet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Moppet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		93B8D0BD15BC4D2F0038AF14 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		93B8D0BF15BC4D2F0038AF14 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		93B8D0C115BC4D2F0038AF14 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		93B8D0C515BC4D2F0038AF14 /* Moppet-Info.plist */ = {isa = PBXFileReference; path = "Moppet-Info.plist"; sourceTree = "<group>"; };
+		93B8D0C515BC4D2F0038AF14 /* Moppet-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Moppet-Info.plist"; sourceTree = "<group>"; };
 		93B8D0C715BC4D2F0038AF14 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		93B8D0C915BC4D2F0038AF14 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		93B8D0CB15BC4D2F0038AF14 /* Moppet-Prefix.pch */ = {isa = PBXFileReference; path = "Moppet-Prefix.pch"; sourceTree = "<group>"; };
-		93B8D0CC15BC4D2F0038AF14 /* MPTAppDelegate.h */ = {isa = PBXFileReference; path = MPTAppDelegate.h; sourceTree = "<group>"; };
+		93B8D0CB15BC4D2F0038AF14 /* Moppet-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Moppet-Prefix.pch"; sourceTree = "<group>"; };
+		93B8D0CC15BC4D2F0038AF14 /* MPTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPTAppDelegate.h; sourceTree = "<group>"; };
 		93B8D0CD15BC4D2F0038AF14 /* MPTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MPTAppDelegate.m; sourceTree = "<group>"; };
 		93B8D0D415BC4D300038AF14 /* MoppetTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoppetTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		93B8D0D515BC4D300038AF14 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		93B8D0DD15BC4D300038AF14 /* MoppetTests-Info.plist */ = {isa = PBXFileReference; path = "MoppetTests-Info.plist"; sourceTree = "<group>"; };
+		93B8D0DD15BC4D300038AF14 /* MoppetTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MoppetTests-Info.plist"; sourceTree = "<group>"; };
 		93B8D0DF15BC4D300038AF14 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		93B8D0E115BC4D300038AF14 /* MoppetTests.h */ = {isa = PBXFileReference; path = MoppetTests.h; sourceTree = "<group>"; };
+		93B8D0E115BC4D300038AF14 /* MoppetTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MoppetTests.h; sourceTree = "<group>"; };
 		93B8D0E215BC4D300038AF14 /* MoppetTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoppetTests.m; sourceTree = "<group>"; };
+		93B8D0F115BC4E120038AF14 /* MPTCallViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPTCallViewController.h; sourceTree = "<group>"; };
+		93B8D0F215BC4E120038AF14 /* MPTCallViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPTCallViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,9 +91,25 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				930E79D215BC5C45008C47C8 /* Security.framework in Frameworks */,
+				930E79D015BC5C25008C47C8 /* SystemConfiguration.framework in Frameworks */,
+				930E79CD15BC5BF0008C47C8 /* libstdc++.dylib in Frameworks */,
+				930E79CB15BC5BE5008C47C8 /* libz.dylib in Frameworks */,
 				93B8D0BE15BC4D2F0038AF14 /* UIKit.framework in Frameworks */,
 				93B8D0C015BC4D2F0038AF14 /* Foundation.framework in Frameworks */,
 				93B8D0C215BC4D2F0038AF14 /* CoreGraphics.framework in Frameworks */,
+				930E79A515BC59D9008C47C8 /* Opentok.framework in Frameworks */,
+				930E79C015BC5B4B008C47C8 /* OpenGLES.framework in Frameworks */,
+				930E79C115BC5B4B008C47C8 /* QuartzCore.framework in Frameworks */,
+				930E79AB15BC5A15008C47C8 /* CoreImage.framework in Frameworks */,
+				930E79C215BC5B4B008C47C8 /* CoreMedia.framework in Frameworks */,
+				930E79C315BC5B4B008C47C8 /* MobileCoreServices.framework in Frameworks */,
+				930E79C415BC5B4B008C47C8 /* CoreAudio.framework in Frameworks */,
+				930E79C515BC5B4B008C47C8 /* AudioToolbox.framework in Frameworks */,
+				930E79C615BC5B4B008C47C8 /* CoreTelephony.framework in Frameworks */,
+				930E79C715BC5B4B008C47C8 /* AVFoundation.framework in Frameworks */,
+				930E79C815BC5B4B008C47C8 /* CoreVideo.framework in Frameworks */,
+				930E79C915BC5B4B008C47C8 /* CFNetwork.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +129,8 @@
 		93B8D0AE15BC4D2F0038AF14 = {
 			isa = PBXGroup;
 			children = (
+				930E79D315BC7CF5008C47C8 /* opentok.bundle */,
+				930E79D115BC5C45008C47C8 /* Security.framework */,
 				93B8D0C315BC4D2F0038AF14 /* Moppet */,
 				93B8D0DB15BC4D300038AF14 /* MoppetTests */,
 				93B8D0BC15BC4D2F0038AF14 /* Frameworks */,
@@ -95,6 +150,21 @@
 		93B8D0BC15BC4D2F0038AF14 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				930E79CE15BC5C1D008C47C8 /* SystemConfiguration.framework */,
+				930E79CC15BC5BF0008C47C8 /* libstdc++.dylib */,
+				930E79CA15BC5BE5008C47C8 /* libz.dylib */,
+				930E79BC15BC5AEE008C47C8 /* OpenGLES.framework */,
+				930E79BE15BC5AFF008C47C8 /* QuartzCore.framework */,
+				930E79A915BC59F9008C47C8 /* CoreImage.framework */,
+				930E79BA15BC5AA6008C47C8 /* CoreMedia.framework */,
+				930E79B815BC5A9E008C47C8 /* MobileCoreServices.framework */,
+				930E79AD15BC5A54008C47C8 /* CoreAudio.framework */,
+				930E79AC15BC5A54008C47C8 /* AudioToolbox.framework */,
+				930E79B015BC5A5E008C47C8 /* CoreTelephony.framework */,
+				930E79B215BC5A63008C47C8 /* AVFoundation.framework */,
+				930E79B415BC5A6B008C47C8 /* CoreVideo.framework */,
+				930E79B615BC5A71008C47C8 /* CFNetwork.framework */,
+				930E79A415BC59D9008C47C8 /* Opentok.framework */,
 				93B8D0BD15BC4D2F0038AF14 /* UIKit.framework */,
 				93B8D0BF15BC4D2F0038AF14 /* Foundation.framework */,
 				93B8D0C115BC4D2F0038AF14 /* CoreGraphics.framework */,
@@ -109,6 +179,8 @@
 				93B8D0CC15BC4D2F0038AF14 /* MPTAppDelegate.h */,
 				93B8D0CD15BC4D2F0038AF14 /* MPTAppDelegate.m */,
 				93B8D0C415BC4D2F0038AF14 /* Supporting Files */,
+				93B8D0F115BC4E120038AF14 /* MPTCallViewController.h */,
+				93B8D0F215BC4E120038AF14 /* MPTCallViewController.m */,
 			);
 			path = Moppet;
 			sourceTree = "<group>";
@@ -216,6 +288,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				93B8D0C815BC4D2F0038AF14 /* InfoPlist.strings in Resources */,
+				930E79D415BC7CF5008C47C8 /* opentok.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +325,7 @@
 			files = (
 				93B8D0CA15BC4D2F0038AF14 /* main.m in Sources */,
 				93B8D0CE15BC4D2F0038AF14 /* MPTAppDelegate.m in Sources */,
+				93B8D0F315BC4E120038AF14 /* MPTCallViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,6 +417,10 @@
 		93B8D0E715BC4D300038AF14 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Moppet/Moppet-Prefix.pch";
 				INFOPLIST_FILE = "Moppet/Moppet-Info.plist";
@@ -354,6 +432,10 @@
 		93B8D0E815BC4D300038AF14 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Moppet/Moppet-Prefix.pch";
 				INFOPLIST_FILE = "Moppet/Moppet-Info.plist";
@@ -415,6 +497,7 @@
 				93B8D0E815BC4D300038AF14 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		93B8D0E915BC4D300038AF14 /* Build configuration list for PBXNativeTarget "MoppetTests" */ = {
 			isa = XCConfigurationList;
@@ -423,6 +506,7 @@
 				93B8D0EB15BC4D300038AF14 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

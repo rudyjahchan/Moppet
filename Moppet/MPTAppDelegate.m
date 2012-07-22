@@ -1,24 +1,19 @@
-//
-//  MPTAppDelegate.m
-//  Moppet
-//
-//  Created by Rudy Jahchan on 7/22/12.
-//  Copyright (c) 2012 8Bit Brownies Inc. All rights reserved.
-//
-
 #import "MPTAppDelegate.h"
 
 @implementation MPTAppDelegate
 
 @synthesize window = _window;
+@synthesize viewController;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
-    [self.window makeKeyAndVisible];
-    return YES;
+  self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+  // Override point for customization after application launch.
+  self.window.backgroundColor = [UIColor blackColor];
+  self.viewController = [[MPTCallViewController alloc] initWithCoder:nil];
+  self.window.rootViewController = viewController;
+  [self.window makeKeyAndVisible];
+  return YES;
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application
